@@ -20,22 +20,22 @@ body {
 }
 .product.debug {
     background-color: beige;
-    height: 580px;
-    width: 360px;
+    height: 520px;
+    width: 364px;
     margin: 10px;
 }
 .text.debug{
     height: 60px;
-    width: 360px;
+    width: 364px;
     background-color: blueviolet;
 }
 .sale.debug {
-    height: 40px;
-    width: 65px;
+    height: 30px;
+    width: 40px;
 }
 .eco.debug{
-    height: 40px;
-    width: 140px;
+    height: 30px;
+    width: 100px;
 
 }
 /* container */
@@ -49,7 +49,7 @@ body {
 .text{
     /* position: absolute; */
     float: left;
-    margin: 10px;
+    margin: 0 10px 0 10px
    
     
     
@@ -57,13 +57,13 @@ body {
 .sale {
     background-color: red;
     position: absolute;
-    bottom: 80px;
+    bottom: 20px;
 }
 .eco{
     background-color:   green;
     position: absolute;
-    bottom: 80px;
-    left: 70px;
+    bottom: 20px;
+    left: 45px;
 }
 .favorites{
     height: 60px;
