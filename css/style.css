@@ -4,3 +4,41 @@
     margin: 0;
     padding: 0;
 }
+.clearfix::after {
+    content:"";
+    display: table;
+    clear: both;
+}
+body {
+    width: 1440px;
+    margin: auto;
+}
+/* debug */
+.products.debug{
+    background-color: aquamarine;
+    
+}
+.product.debug {
+    background-color: beige;
+    height: 580px;
+    width: 360px;
+    margin: 10px;
+}
+.text.debug{
+    height: 60px;
+    width: 360px;
+    background-color: blueviolet;
+}
+/* container */
+.products{
+    padding: 0 10% 0 10%
+}
+.product{
+   float: left;
+   position: relative;
+}
+.text{
+    position: absolute;
+    bottom: 0;
+    
+}
