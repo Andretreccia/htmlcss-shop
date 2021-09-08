@@ -14,67 +14,89 @@ body {
     margin: auto;
 }
 /* debug */
-.products.debug{
+.debug .products {
     background-color: aquamarine;
     
 }
-.product.debug {
+/* .debug .product{
     background-color: beige;
+    margin: 10px;
+} */
+/* .debug .image {
     height: 520px;
     width: 364px;
-    margin: 10px;
-}
-.text.debug{
+} */
+/* .debug .text{
     height: 60px;
     width: 364px;
     background-color: blueviolet;
-}
-.sale.debug {
+} */
+/* .debug .sale{
     height: 30px;
     width: 40px;
-}
-.eco.debug{
+} */
+/* .debug .eco{
     height: 30px;
     width: 100px;
 
-}
+} */
 /* container */
 .products{
     padding: 0 10% 0 10%
 }
+/* card product */
 .product{
    float: left;
    position: relative;
+   margin: 5px;
 }
-.text{
-    /* position: absolute; */
-    float: left;
-    margin: 0 10px 0 10px
-   
-    
-    
+
+.image {
+    position: relative;
+    height: 520px;
+    width: 364px;
 }
 .sale {
-    background-color: red;
     position: absolute;
-    bottom: 20px;
+    bottom: 15px;
+    background-color: red;
+    color: white;
+    font-weight: bold;
+    padding: 0.3rem
 }
 .eco{
     background-color:   green;
     position: absolute;
-    bottom: 20px;
-    left: 45px;
+    bottom: 15px;
+    left: 50px;
+    color: white;
+    font-weight: bold;
+    padding: 0.3rem;
+    
 }
 .favorites{
-    height: 60px;
-    width: 60px;
     background-color: white;
     position: absolute;
     right: 0;
     top: 20px;
+    font-size: 2rem;
+    padding: 0.5rem 1rem 0.5rem 1rem;
+   
 }
 img{
     width: 100%;
     height: 100%;
     object-fit: cover;
+}
+/* text product */
+.model {
+    font-weight: bold;
+    font-size: 1.1rem;
+}
+.price{
+    text-decoration: line-through;
+}
+.price_sale {
+    color: red;
+    font-weight: bold;
 }
