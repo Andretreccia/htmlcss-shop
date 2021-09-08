@@ -29,6 +29,15 @@ body {
     width: 360px;
     background-color: blueviolet;
 }
+.sale.debug {
+    height: 40px;
+    width: 65px;
+}
+.eco.debug{
+    height: 40px;
+    width: 140px;
+
+}
 /* container */
 .products{
     padding: 0 10% 0 10%
@@ -41,4 +50,23 @@ body {
     position: absolute;
     bottom: 0;
     
+}
+.sale {
+    background-color: red;
+    position: absolute;
+    bottom: 80px;
+}
+.eco{
+    background-color:   green;
+    position: absolute;
+    bottom: 80px;
+    left: 70px;
+}
+.favorites{
+    height: 60px;
+    width: 60px;
+    background-color: white;
+    position: absolute;
+    right: 0;
+    top: 20px;
 }
