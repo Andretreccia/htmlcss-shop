@@ -74,6 +74,15 @@ body {
     padding: 0.3rem;
     
 }
+.eco_s {
+        background-color:   green;
+        position: absolute;
+        bottom: 15px;
+         color: white;
+        font-weight: bold;
+        
+        padding: 0.3rem;
+}
 .favorites{
     background-color: white;
     position: absolute;
@@ -99,4 +108,17 @@ img{
 .price_sale {
     color: red;
     font-weight: bold;
+}
+/* hover image */
+.img_0 {
+    display: block;
+}
+.img_1 {
+    display: none;
+}
+.image:hover .img_0{
+    display: none;
+}
+.image:hover .img_1{
+    display: block;
 }
